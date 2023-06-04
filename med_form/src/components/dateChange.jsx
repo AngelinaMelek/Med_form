@@ -9,7 +9,7 @@ function DateChanger(props) {
 
   return (
     <input
-      {...props.reg}
+      {...props.register}
       onChange={onDateChange}
       type="date"
       name="date"
