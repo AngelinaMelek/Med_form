@@ -2,7 +2,11 @@ import React from "react";
 
 export function Select(child) {
   return (
-    <select {...child.register} {...child.rest}>
+    <select
+      {...child.register}
+      {...child.rest}
+      onChange={console.log(child.onChange)}
+    >
       <option selected disabled>
         {""}
       </option>

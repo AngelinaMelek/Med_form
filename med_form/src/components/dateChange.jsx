@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function DateChanger(props) {
   const [date, setDate] = useState("");
   const onDateChange = (e) => {
-    console.log("onDateChange: ", e.target.value);
+    console.log(e.target.value);
     setDate(e.target.value);
   };
 
